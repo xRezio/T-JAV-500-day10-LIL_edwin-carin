@@ -5,7 +5,7 @@ public class Panini extends Sandwich {
     private static final float PRICE = 3.50f;
     private static final int CALORIES = 120;
     private static final boolean VEGETARIAN = true;
-    private static final java.util.List<String> INGREDIENTS = Arrays.asList("tomato", "salad", "cheese", "avocado", "cucumber");
+    private static final java.util.List<String> INGREDIENTS = Arrays.asList("tomato", "salad", "cucumber", "avocado", "cheese");
 
     public Panini() {
         super(VEGETARIAN, INGREDIENTS);
