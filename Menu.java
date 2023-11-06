@@ -1,4 +1,4 @@
-public abstract class Menu<T extends Drink, U extends Food> {
+public abstract class Menu<T extends Food, U extends Food> {
     private T drink;
     private U meal;
 
